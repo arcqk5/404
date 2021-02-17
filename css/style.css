@@ -1,7 +1,7 @@
 html {
     font-family: 'Lilita One', cursive;
-    font-size: 135px;
-    line-height: 7rem;
+    font-size: 128px;
+    /* line-height: 7rem; */
 /*    //letter-spacing: -2px;*/
     color: white;
 }
@@ -38,9 +38,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__inner {
-    margin: 0 auto;
-    text-align: center;
-
     width: 100%;
-    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page__text {
+    font-size: 128px;
+    text-align: center;
+}
+
+@media(max-width: 670px) {
+    .page__text {
+        font-size: 80px;
+    }
 }
