@@ -1,0 +1,46 @@
+html {
+    font-family: 'Lilita One', cursive;
+    font-size: 135px;
+    line-height: 7rem;
+/*    //letter-spacing: -2px;*/
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+.page {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Container*/
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.page__inner {
+    margin: 0 auto;
+    text-align: center;
+
+    width: 100%;
+    max-width: 900px;
+}
